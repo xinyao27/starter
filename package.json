@@ -1,7 +1,7 @@
 {
   "name": "name",
   "version": "0.0.0",
-  "packageManager": "pnpm",
+  "packageManager": "pnpm@6.32.3",
   "description": "",
   "keywords": [],
   "homepage": "https://github.com/chenyueban/[name]#readme",
