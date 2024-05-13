@@ -8,4 +8,4 @@ const a = 1
 
 ## License
 
-[MIT](./LICENSE) License © 2022 [chenyueban](https://github.com/chenyueban)
+[MIT](./LICENSE) License © 2022 [xinyao27](https://github.com/xinyao27)

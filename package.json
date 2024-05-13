@@ -1,70 +1,66 @@
 {
   "name": "name",
-  "type": "module",
   "version": "0.0.0",
-  "packageManager": "pnpm@7.18.2",
   "description": "",
+  "type": "module",
   "keywords": [],
-  "homepage": "https://github.com/chenyueban/[name]#readme",
-  "bugs": {
-    "url": "https://github.com/chenyueban/[name]/issues"
-  },
   "license": "MIT",
-  "author": {
-    "name": "chenyueban",
-    "email": "jasonchan0527@gmail.com"
+  "homepage": "https://github.com/xinyao27/[name]#readme",
+  "bugs": {
+    "url": "https://github.com/xinyao27/[name]/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/chenyueban/[name].git"
+    "url": "git+https://github.com/xinyao27/[name].git"
   },
-  "funding": "https://github.com/sponsors/chenyueban",
+  "author": {
+    "name": "xinyao",
+    "email": "hi@xinyao.me"
+  },
+  "funding": "https://github.com/sponsors/xinyao27",
+  "files": [
+    "dist/*"
+  ],
   "main": "./dist/index.cjs",
   "module": "./dist/index.mjs",
   "types": "./dist/index.d.ts",
   "exports": {
     ".": {
+      "types": "./dist/index.d.ts",
       "require": "./dist/index.cjs",
-      "import": "./dist/index.mjs",
-      "types": "./dist/index.d.ts"
+      "import": "./dist/index.mjs"
     }
   },
-  "files": [
-    "dist/*"
-  ],
   "sideEffects": false,
   "scripts": {
-    "build": "rimraf dist && unbuild",
-    "dev": "unbuild --stub",
+    "build": "unbuild",
+    "stub": "unbuild --stub",
     "typecheck": "tsc --noEmit",
     "lint": "nr typecheck && eslint . --fix",
     "prepublishOnly": "nr build",
     "release": "release-it",
-    "start": "tsx src/index.ts",
-    "test": "vitest",
-    "preinstall": "npx only-allow pnpm",
+    "start": "bun run src/index.ts",
+    "test": "bun test",
+    "preinstall": "npx only-allow bun",
     "up": "taze major -I",
     "prepare": "husky install"
   },
   "devDependencies": {
-    "@antfu/ni": "^0.18.8",
-    "@chenyueban/eslint-config": "^1.0.14",
-    "@chenyueban/tsconfig": "^2.1.0",
-    "@commitlint/cli": "^17.3.0",
-    "@release-it/conventional-changelog": "^5.1.1",
-    "@types/node": "^18.11.17",
-    "commitizen": "^4.2.6",
+    "@antfu/ni": "^0.21.12",
+    "@commitlint/cli": "^19.3.0",
+    "@release-it/conventional-changelog": "^8.0.1",
+    "@types/bun": "^1.1.1",
+    "@xystack/style-guide": "^0.0.4",
+    "commitizen": "^4.3.0",
     "cz-conventional-changelog": "^3.3.0",
-    "eslint": "^8.30.0",
-    "husky": "^8.0.2",
-    "lint-staged": "^13.1.0",
-    "release-it": "^15.5.1",
-    "rimraf": "^3.0.2",
-    "taze": "^0.8.5",
-    "tsx": "^3.12.1",
-    "typescript": "^4.9.4",
-    "unbuild": "^1.0.2",
-    "vite": "^4.0.2",
-    "vitest": "^0.26.1"
-  }
+    "eslint": "^9.2.0",
+    "husky": "^9.0.11",
+    "lint-staged": "^15.2.2",
+    "prettier": "^3.2.5",
+    "release-it": "^17.2.1",
+    "taze": "^0.13.8",
+    "typescript": "^5.4.5",
+    "unbuild": "^2.0.0"
+  },
+  "prettier": "@xystack/style-guide/prettier"
 }
