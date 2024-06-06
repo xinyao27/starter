@@ -42,7 +42,7 @@
     "start": "bun run src/index.ts",
     "test": "bun test",
     "up": "bun update",
-    "prepare": "husky install"
+    "prepare": "husky"
   },
   "devDependencies": {
     "@antfu/ni": "^0.21.12",
