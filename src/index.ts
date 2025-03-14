@@ -1,2 +1,6 @@
-export const A = 'a'
-export const version = process.env.VERSION
+export const A: string = 'a'
+export const version: undefined | string = process.env.VERSION
+
+export type T = {
+  a: string
+}
