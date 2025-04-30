@@ -45,16 +45,16 @@
   },
   "devDependencies": {
     "@antfu/ni": "^24.3.0",
-    "@release-it/conventional-changelog": "^10.0.0",
-    "@types/bun": "^1.2.9",
+    "@release-it/conventional-changelog": "^10.0.1",
+    "@types/bun": "^1.2.11",
     "@xystack/style-guide": "^0.3.5",
-    "eslint": "^9.24.0",
+    "eslint": "^9.25.1",
     "lint-staged": "^15.5.1",
     "prettier": "^3.5.3",
-    "release-it": "^18.1.2",
-    "simple-git-hooks": "^2.12.1",
+    "release-it": "^19.0.1",
+    "simple-git-hooks": "^2.13.0",
     "taze": "^19.0.4",
-    "tsdown": "^0.6.10",
+    "tsdown": "^0.10.2",
     "typescript": "^5.8.3"
   },
   "simple-git-hooks": {
