@@ -44,17 +44,17 @@
     "prepare": "simple-git-hooks"
   },
   "devDependencies": {
-    "@antfu/ni": "^24.3.0",
+    "@antfu/ni": "^25.0.0",
     "@release-it/conventional-changelog": "^10.0.1",
-    "@types/bun": "^1.2.11",
-    "@xystack/style-guide": "^0.3.5",
-    "eslint": "^9.25.1",
-    "lint-staged": "^15.5.1",
-    "prettier": "^3.5.3",
-    "release-it": "^19.0.1",
+    "@types/bun": "^1.2.17",
+    "@xystack/style-guide": "^0.3.12",
+    "eslint": "^9.30.1",
+    "lint-staged": "^16.1.2",
+    "prettier": "^3.6.2",
+    "release-it": "^19.0.3",
     "simple-git-hooks": "^2.13.0",
-    "taze": "^19.0.4",
-    "tsdown": "^0.10.2",
+    "taze": "^19.1.0",
+    "tsdown": "^0.12.9",
     "typescript": "^5.8.3"
   },
   "simple-git-hooks": {
