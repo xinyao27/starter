@@ -35,7 +35,7 @@
   "scripts": {
     "build": "tsdown",
     "typecheck": "tsc --noEmit",
-    "lint": "nr typecheck && eslint . --fix",
+    "lint": "eslint . --fix && nr typecheck",
     "prepublishOnly": "nr build",
     "release": "release-it",
     "start": "bun run src/index.ts",
