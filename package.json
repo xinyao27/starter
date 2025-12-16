@@ -57,6 +57,6 @@
     "pre-commit": "npx lint-staged"
   },
   "lint-staged": {
-    "*": "biome check --write --unsafe"
+    "*": "biome check --write --unsafe --files-ignore-unknown=true"
   }
 }
