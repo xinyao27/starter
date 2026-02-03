@@ -8,4 +8,4 @@ const a = 1
 
 ## License
 
-[MIT](./LICENSE) License © 2025 [xinyao27](https://github.com/xinyao27)
+[MIT](./LICENSE) License © 2026 [xinyao27](https://github.com/xinyao27)
