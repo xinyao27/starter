@@ -5,9 +5,5 @@
     "source.fixAll.oxc": "explicit",
     "source.organizeImports.oxc": "explicit"
   },
-  "tailwindCSS.classFunctions": [
-    "cva",
-    "cx",
-    "cn"
-  ]
+  "tailwindCSS.classFunctions": ["cva", "cx", "cn"]
 }
